@@ -40,7 +40,7 @@ class StringMethods
         //replace All occurances
         System.out.println(FirstName.replaceAll("a","b"));
         //split string 
-        String[] str = FirstName.split("d",0);
+        String[] str = FirstName.split("d");              //split("d",2); split before 2 index...
         for(String a : str)
         {
             System.out.println(a);
@@ -50,7 +50,7 @@ class StringMethods
         System.out.println(FirstName.startsWith("M"));
         //return sub sequence from 0 to 2-1 index
         System.out.println(FirstName.subSequence(0, 2));
-        //return subString from beginning index
+        //return subString after particular index
         System.out.println(FirstName.substring(2));
         //convert string into lower case
         System.out.println(FirstName.toLowerCase());
